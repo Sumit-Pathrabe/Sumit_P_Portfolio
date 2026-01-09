@@ -74,25 +74,15 @@ export default function Portfolio() {
 
   const experience = [
     {
-      title: "Senior Data Scientist",
-      company: "Tech Innovators Inc.",
-      period: "2023 - Present",
-      description: "Leading ML model development for predictive analytics, improving accuracy by 35%.",
+      title: "Data Engineer Intern",
+      company: "HHT Tech",
+      period: "2025 - Present", // Adjust dates as needed
+      description: "Assisted the data engineering team in building and maintaining robust data pipelines. Focused on automating data extraction, transformation, and loading (ETL) processes for industry-scale datasets.",
       achievements: [
-        "Architected scalable ML pipelines processing 10M+ records daily",
-        "Reduced model inference time by 60% through optimization",
-        "Mentored team of 5 junior data scientists",
-      ],
-    },
-    {
-      title: "Data Scientist",
-      company: "Analytics Pro Solutions",
-      period: "2021 - 2023",
-      description: "Developed NLP models and custom analytics solutions for enterprise clients.",
-      achievements: [
-        "Built sentiment analysis system with 92% accuracy",
-        "Created automated ETL pipelines reducing processing time by 40%",
-        "Delivered 15+ client projects generating $2M+ in revenue",
+        "Developed Python scripts to automate daily ETL workflows, reducing manual data handling by 40%",
+        "Optimized complex SQL queries to improve data retrieval speeds for internal reporting dashboards",
+        "Collaborated with senior engineers to migrate legacy CSV data into a structured data warehouse, ensuring 100% data integrity",
+        "Implemented basic data validation checks to identify and clean inconsistent records before loading"
       ],
     },
   ]
