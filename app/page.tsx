@@ -158,20 +158,20 @@ export default function Portfolio() {
         </div>
       </nav>
 
-      {/* Hero Section */}
+      {/* Hero Section - UPDATED WITH YOUR DETAILS */}
       <section className="container mx-auto px-6 py-20 md:py-32">
         <div className="mx-auto max-w-4xl text-center">
           <div className="mb-6 inline-block rounded-full border border-cyan-500/30 bg-cyan-500/10 px-4 py-2 text-sm font-medium text-cyan-500">
             Available for Opportunities
           </div>
           <h2 className="mb-4 text-5xl font-bold leading-tight md:text-7xl">
-            Data Scientist &<br />
+            Hi, I'm Sumit <br />
             <span className="bg-gradient-to-r from-cyan-500 to-violet-500 bg-clip-text text-transparent">
-              ML Engineer
+              Data Scientist
             </span>
           </h2>
           <p className="mb-8 text-xl text-muted-foreground md:text-2xl">
-            Transforming raw data into intelligent solutions and actionable insights.
+            B.Tech Data Science student at RCOEM. Specializing in statistical analysis, data manipulation, and exploratory data analysis to build intelligent solutions.
           </p>
           <Button
             size="lg"
