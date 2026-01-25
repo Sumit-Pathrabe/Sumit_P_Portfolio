@@ -12,7 +12,6 @@ import {
   ChevronUp,
   Code2,
   ExternalLink,
-  Briefcase,
 } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
@@ -71,21 +70,6 @@ export default function Portfolio() {
       { name: "Streamlit", logo: "https://streamlit.io/images/brand/streamlit-mark-color.svg" },
     ],
   }
-
-  const experience = [
-    {
-      title: "Data Engineer Intern",
-      company: "HHT Tech",
-      period: "2025 - Present", // Adjust dates as needed
-      description: "Assisted the data engineering team in building and maintaining robust data pipelines. Focused on automating data extraction, transformation, and loading (ETL) processes for industry-scale datasets.",
-      achievements: [
-        "Developed Python scripts to automate daily ETL workflows, reducing manual data handling by 40%",
-        "Optimized complex SQL queries to improve data retrieval speeds for internal reporting dashboards",
-        "Collaborated with senior engineers to migrate legacy CSV data into a structured data warehouse, ensuring 100% data integrity",
-        "Implemented basic data validation checks to identify and clean inconsistent records before loading"
-      ],
-    },
-  ]
 
   const projects = [
     {
@@ -149,12 +133,6 @@ export default function Portfolio() {
               className="hidden text-sm font-medium transition-colors hover:text-cyan-500 md:block"
             >
               Ecosystem
-            </button>
-            <button
-              onClick={() => scrollToSection("trajectory")}
-              className="hidden text-sm font-medium transition-colors hover:text-cyan-500 md:block"
-            >
-              Experience
             </button>
             <button
               onClick={() => scrollToSection("projects")}
@@ -305,50 +283,8 @@ export default function Portfolio() {
         </div>
       </section>
 
-      <section id="trajectory" className="py-20">
-        <div className="container mx-auto px-6">
-          <h3 className="mb-4 text-center text-4xl font-bold">Professional Trajectory</h3>
-          <p className="mx-auto mb-12 max-w-3xl text-center text-lg text-muted-foreground">
-            A journey of continuous growth in data science and machine learning.
-          </p>
-
-          <div className="mx-auto max-w-4xl space-y-8">
-            {experience.map((exp, index) => (
-              <Card
-                key={index}
-                className="group border-cyan-500/20 bg-card/50 backdrop-blur-sm transition-all hover:border-cyan-500/40 hover:shadow-xl hover:shadow-cyan-500/20"
-              >
-                <CardHeader>
-                  <div className="flex items-start justify-between">
-                    <div className="flex-1">
-                      <CardTitle className="text-2xl font-semibold">{exp.title}</CardTitle>
-                      <CardDescription className="mt-2 flex items-center gap-2 text-base">
-                        <Briefcase className="h-4 w-4 text-cyan-500" />
-                        <span className="font-medium text-cyan-500">{exp.company}</span>
-                        <span className="text-muted-foreground">• {exp.period}</span>
-                      </CardDescription>
-                    </div>
-                  </div>
-                  <p className="mt-4 text-base text-muted-foreground">{exp.description}</p>
-                </CardHeader>
-                <CardContent>
-                  <ul className="space-y-2">
-                    {exp.achievements.map((achievement, idx) => (
-                      <li key={idx} className="flex items-start gap-3">
-                        <div className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-gradient-to-r from-cyan-500 to-violet-500" />
-                        <span className="text-sm leading-relaxed">{achievement}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Projects Section */}
-      <section id="projects" className="border-t border-border bg-muted/30 py-20">
+      <section id="projects" className="py-20">
         <div className="container mx-auto px-6">
           <h3 className="mb-12 text-center text-4xl font-bold">Featured Projects</h3>
           <div className="space-y-16">
@@ -417,8 +353,8 @@ export default function Portfolio() {
                   </div>
                   <div>
                     <p className="text-sm text-muted-foreground">Email</p>
-                    <a href="mailto:your.email@example.com" className="text-lg font-medium hover:text-cyan-500">
-                      your.email@example.com
+                    <a href="mailto:sumit.pathrabe17@gmail.com" className="text-lg font-medium hover:text-cyan-500">
+                      sumit.pathrabe17@gmail.com
                     </a>
                   </div>
                 </div>
@@ -428,8 +364,8 @@ export default function Portfolio() {
                   </div>
                   <div>
                     <p className="text-sm text-muted-foreground">Phone</p>
-                    <a href="tel:+1234567890" className="text-lg font-medium hover:text-violet-500">
-                      +1 (234) 567-890
+                    <a href="tel:+917972442764" className="text-lg font-medium hover:text-violet-500">
+                      +91 7972442764
                     </a>
                   </div>
                 </div>
@@ -439,20 +375,24 @@ export default function Portfolio() {
                   </div>
                   <div>
                     <p className="text-sm text-muted-foreground">Location</p>
-                    <p className="text-lg font-medium">San Francisco, CA</p>
+                    <p className="text-lg font-medium">Nagpur, Maharashtra</p>
                   </div>
                 </div>
                 <div className="border-t border-border pt-6">
                   <p className="mb-4 text-sm text-muted-foreground">Connect with me</p>
                   <div className="flex gap-4">
                     <a
-                      href="#"
+                      href="https://github.com/Sumit-Pathrabe"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="flex h-12 w-12 items-center justify-center rounded-full border border-cyan-500/30 bg-cyan-500/10 transition-all hover:border-cyan-500 hover:bg-cyan-500/20"
                     >
                       <Github className="h-6 w-6 text-cyan-500" />
                     </a>
                     <a
-                      href="#"
+                      href="https://www.linkedin.com/in/sumit-pathrabe-a068922b9/"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="flex h-12 w-12 items-center justify-center rounded-full border border-violet-500/30 bg-violet-500/10 transition-all hover:border-violet-500 hover:bg-violet-500/20"
                     >
                       <Linkedin className="h-6 w-6 text-violet-500" />
