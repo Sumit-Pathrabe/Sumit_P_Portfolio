@@ -1,4 +1,4 @@
-# Hi, I'm [Your Name] 👋
+# Hi, I'm Sumit 👋
 ### Data Scientist | Data Analyst | Machine Learning Enthusiast
 
 I specialize in turning messy data into actionable insights. I love bridge the gap between complex algorithms and business value.
