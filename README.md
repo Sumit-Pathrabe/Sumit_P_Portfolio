@@ -26,13 +26,3 @@ I specialize in turning messy data into actionable insights. I love bridge the g
 * **Tech:** SQL, Power BI, DAX.
 
 ---
-
-## 📈 My GitHub Stats
-![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=radical)
-
----
-
-## 📫 How to reach me:
-* **LinkedIn:** [linkedin.com/in/yourprofile](link)
-* **Portfolio Website:** [yourwebsite.com](link)
-* **Email:** yourname@email.com
