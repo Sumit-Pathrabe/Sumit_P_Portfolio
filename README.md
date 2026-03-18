@@ -20,9 +20,5 @@ I specialize in turning messy data into actionable insights. I love bridge the g
 * **The Solution:** Built a Machine Learning model using [Specific Algorithm] to predict health risks with 92% accuracy.
 * **Tech:** Python, FastAPI, Scikit-learn.
 
-### [Project Name 2: e.g., Retail Vision Dashboard](Link to Repo)
-* **The Problem:** Stakeholders couldn't identify which product segments were losing money.
-* **The Solution:** Developed an interactive Power BI dashboard that identified a 15% leak in supply chain costs.
-* **Tech:** SQL, Power BI, DAX.
 
 ---
