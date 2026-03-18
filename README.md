@@ -8,7 +8,7 @@ I specialize in turning messy data into actionable insights. I love bridge the g
 ## 🛠 Skills & Tech Stack
 * **Languages:** Python (Pandas, NumPy, Scikit-learn), SQL, C++
 * **Visualization:** Power BI, Tableau, Matplotlib, Seaborn
-* **Tools:** Git, FastAPI, Streamlit
+* **Tools:** Git,Kubernates,Docker FastAPI, Streamlit
 * **Specialties:** Predictive Modeling, NLP, Statistical Analysis
 
 ---
